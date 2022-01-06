@@ -1,0 +1,7 @@
+namePrefix: prod-
+commonLabels:
+    tier: prod
+bases:
+    - ../base-lesson-4
+patches:
+    - replica_count.yaml
